@@ -1,0 +1,615 @@
+{
+  "CourseName": {
+    "en_us": "Machine Learning through Application"
+  },
+  "CourseInformation": {
+    "Modality": "CUR",
+    "Architecture": "TF",
+    "Level": "200",
+    "ShortCode": "MLUMLA",
+    "Version": "1.0.6",
+    "ReleaseDestination": "ACA"
+  },
+  "Books": [
+    {
+      "Name": {
+        "en_us": "Educator Guide"
+      },
+      "PdfName": "{{CourseTag}}-EG.pdf",
+      "ZipName": "{{CourseTag}}-EG.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Course Overview",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/EG/MLUMLA-EN-CourseOverview-EG.docx"
+          },
+          {
+            "Title": "Module 1 Overview",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/EG/MLUMLA-EN-M1-EG.docx"
+          },
+          {
+            "Title": "Module 1, Lesson 0: Introduction to ML",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/EG/MLUMLA-EN-M1-L0-EG.docx"
+          },
+          {
+            "Title": "Module 1, Lesson 1: Jupyter and SageMaker",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/EG/MLUMLA-EN-M1-L1-EG.docx"
+          },
+          {
+            "Title": "Module 1, Lesson 2: Types of ML and Aspects of Successful ML Problems",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/EG/MLUMLA-EN-M1-L2-EG.docx"
+          },
+          {
+            "Title": "Module 1, Lesson 3: Examples of ML Applications and Why They Are Successful",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/EG/MLUMLA-EN-M1-L3-EG.docx"
+          },
+          {
+            "Title": "Module 1, Lesson 4: The ML Lifecycle, and Overfitting and Underfitting",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/EG/MLUMLA-EN-M1-L4-EG.docx"
+          },
+          {
+            "Title": "Module 1, Lesson 5: AutoML and AutoGluon",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/EG/MLUMLA-EN-M1-L5-EG.docx"
+          },
+          {
+            "Title": "Module 2 Overview",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/EG/MLUMLA-EN-M2-EG.docx"
+          },
+          {
+            "Title": "Module 2, Lesson 1: Exploratory Data Analysis",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/EG/MLUMLA-EN-M2-L1-EG.docx"
+          },
+          {
+            "Title": "Module 2, Lesson 2: Basic Feature Engineering",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/EG/MLUMLA-EN-M2-L2-EG.docx"
+          },
+          {
+            "Title": "Module 2, Lesson 3: Tree-Based Models",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/EG/MLUMLA-EN-M2-L3-EG.docx"
+          },
+          {
+            "Title": "Module 2, Lesson 4: Optimization, Regression Models, and Regularization",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/EG/MLUMLA-EN-M2-L4-EG.docx"
+          },
+          {
+            "Title": "Module 2, Lesson 5: Hyperparameter Tuning",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/EG/MLUMLA-EN-M2-L5-EG.docx"
+          },
+          {
+            "Title": "Module 2, Lesson 6: Ensembling",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/EG/MLUMLA-EN-M2-L6-EG.docx"
+          },
+          {
+            "Title": "Module 3 Overview",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/EG/MLUMLA-EN-M3-EG.docx"
+          },
+          {
+            "Title": "Module 3, Lesson 1: Introduction to Fairness and Bias Mitigation in ML",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/EG/MLUMLA-EN-M3-L1-EG.docx"
+          },
+          {
+            "Title": "Module 3, Lesson 2: Designing Fair Models, and Data Integrity and Analysis",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/EG/MLUMLA-EN-M3-L2-EG.docx"
+          },
+          {
+            "Title": "Module 3, Lesson 3: Fairness Criteria",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/EG/MLUMLA-EN-M3-L3-EG.docx"
+          },
+          {
+            "Title": "Module 3, Lesson 4: Bias Mitigation in Preprocessing, Model Training, and Postprocessing",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/EG/MLUMLA-EN-M3-L4-EG.docx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-SG.pdf",
+      "ZipName": "{{CourseTag}}-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 1, Lesson 0: Introduction to ML",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M1-L0.pptx"
+          },
+          {
+            "Title": "Module 1, Lesson 1: Jupyter and SageMaker",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M1-L1.pptx"
+          },
+          {
+            "Title": "Module 1, Lesson 2: Types of ML and Aspects of Successful ML Problems",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M1-L2.pptx"
+          },
+          {
+            "Title": "Module 1, Lesson 3: Examples of ML Applications and Why They Are Successful",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M1-L3.pptx"
+          },
+          {
+            "Title": "Module 1, Lesson 4: The ML Lifecycle, and Overfitting and Underfitting",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M1-L4.pptx"
+          },
+          {
+            "Title": "Module 1, Lesson 5: AutoML and AutoGluon",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M1-L5.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 1: Exploratory Data Analysis",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M2-L1.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 2: Basic Feature Engineering",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M2-L2.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 3: Tree-Based Models",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M2-L3.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 4: Optimization, Regression Models, and Regularization",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M2-L4.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 5: Hyperparameter Tuning",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M2-L5.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 6: Ensembling",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M2-L6.pptx"
+          },
+          {
+            "Title": "Module 3, Lesson 1: Introduction to Fairness and Bias Mitigation in ML",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M3-L1.pptx"
+          },
+          {
+            "Title": "Module 3, Lesson 2: Designing Fair Models, and Data Integrity and Analysis",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M3-L2.pptx"
+          },
+          {
+            "Title": "Module 3, Lesson 3: Fairness Criteria",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M3-L3.pptx"
+          },
+          {
+            "Title": "Module 3, Lesson 4: Bias Mitigation in Preprocessing, Model Training, and Postprocessing",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M3-L4.pptx"
+          },
+          {
+            "Title": "Course Summary",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M1-M3-Summary.pptx"
+          }
+        ]
+      }
+    },
+    
+    
+    {
+      "Name": {
+        "en_us": "Module 1 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M1-SG.pdf",
+      "ZipName": "{{CourseTag}}-M1-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 1, Lesson 0: Introduction to ML",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M1-L0.pptx"
+          },
+          {
+            "Title": "Module 1, Lesson 1: Jupyter and SageMaker",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M1-L1.pptx"
+          },
+          {
+            "Title": "Module 1, Lesson 2: Types of ML and Aspects of Successful ML Problems",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M1-L2.pptx"
+          },
+          {
+            "Title": "Module 1, Lesson 3: Examples of ML Applications and Why They Are Successful",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M1-L3.pptx"
+          },
+          {
+            "Title": "Module 1, Lesson 4: The ML Lifecycle, and Overfitting and Underfitting",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M1-L4.pptx"
+          },
+          {
+            "Title": "Module 1, Lesson 5: AutoML and AutoGluon",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M1-L5.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 1, Lesson 0 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M1-L0-SG.pdf",
+      "ZipName": "{{CourseTag}}-M1-L0-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 1, Lesson 0: Introduction to ML",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M1-L0.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 1, Lesson 1 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M1-L1-SG.pdf",
+      "ZipName": "{{CourseTag}}-M1-L1-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 1, Lesson 1: Jupyter and SageMaker",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M1-L1.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 1, Lesson 2 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M1-L2-SG.pdf",
+      "ZipName": "{{CourseTag}}-M1-L2-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 1, Lesson 2: Types of ML and Aspects of Successful ML Problems",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M1-L2.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 1, Lesson 3 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M1-L3-SG.pdf",
+      "ZipName": "{{CourseTag}}-M1-L3-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 1, Lesson 3: Examples of ML Applications and Why They Are Successful",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M1-L3.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 1 Lesson 4 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M1-L4-SG.pdf",
+      "ZipName": "{{CourseTag}}-M1-L4-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 1, Lesson 4: The ML Lifecycle, and Overfitting and Underfitting",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M1-L4.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 1, Lesson 5 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M1-L5-SG.pdf",
+      "ZipName": "{{CourseTag}}-M1-L5-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 1, Lesson 5: AutoML and AutoGluon",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M1-L5.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 2 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M2-SG.pdf",
+      "ZipName": "{{CourseTag}}-M2-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 2, Lesson 1: Exploratory Data Analysis",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M2-L1.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 2: Basic Feature Engineering",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M2-L2.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 3: Tree-Based Models",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M2-L3.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 4: Optimization, Regression Models, and Regularization",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M2-L4.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 5: Hyperparameter Tuning",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M2-L5.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 6: Ensembling",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M2-L6.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 2, Lesson 1 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M2-L1-SG.pdf",
+      "ZipName": "{{CourseTag}}-M2-L1-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 2, Lesson 1: Exploratory Data Analysis",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M2-L1.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 2, Lesson 2 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M2-L2-SG.pdf",
+      "ZipName": "{{CourseTag}}-M2-L2-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 2, Lesson 2: Basic Feature Engineering",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M2-L2.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 2, Lesson 3 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M2-L3-SG.pdf",
+      "ZipName": "{{CourseTag}}-M2-L3-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 2, Lesson 3: Tree-Based Models",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M2-L3.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 2, Lesson 4 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M2-L4-SG.pdf",
+      "ZipName": "{{CourseTag}}-M2-L4-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 2, Lesson 4: Optimization, Regression Models, and Regularization",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M2-L4.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 2, Lesson 5 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M2-L5-SG.pdf",
+      "ZipName": "{{CourseTag}}-M2-L5-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 2, Lesson 5: Hyperparameter Tuning",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M2-L5.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 2, Lesson 6 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M2-L6-SG.pdf",
+      "ZipName": "{{CourseTag}}-M2-L6-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 2, Lesson 6: Ensembling",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M2-L6.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 3 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M3-SG.pdf",
+      "ZipName": "{{CourseTag}}-M3-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 3, Lesson 1: Introduction to Fairness and Bias Mitigation in ML",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M3-L1.pptx"
+          },
+          {
+            "Title": "Module 3, Lesson 2: Designing Fair Models, and Data Integrity and Analysis",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M3-L2.pptx"
+          },
+          {
+            "Title": "Module 3, Lesson 3: Fairness Criteria",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M3-L3.pptx"
+          },
+          {
+            "Title": "Module 3, Lesson 4: Bias Mitigation in Preprocessing, Model Training, and Postprocessing",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M3-L4.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 3, Lesson 1 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M3-L1-SG.pdf",
+      "ZipName": "{{CourseTag}}-M3-L1-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 3, Lesson 1: Introduction to Fairness and Bias Mitigation in ML",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M3-L1.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 3, Lesson 2 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M3-L2-SG.pdf",
+      "ZipName": "{{CourseTag}}-M3-L2-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 3, Lesson 2: Designing Fair Models, and Data Integrity and Analysis",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M3-L2.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 3, Lesson 3 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M3-L3-SG.pdf",
+      "ZipName": "{{CourseTag}}-M3-L3-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 3, Lesson 3: Fairness Criteria",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M3-L3.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 3, Lesson 4 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M3-L4-SG.pdf",
+      "ZipName": "{{CourseTag}}-M3-L4-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 3, Lesson 4: Bias Mitigation in Preprocessing, Model Training, and Postprocessing",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M3-L4.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Course Summary Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-Summary-SG.pdf",
+      "ZipName": "{{CourseTag}}-Summary-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Course Summary",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUMLA-10-EN/PPTs/student-guide-slides/MLUMLA-EN-M1-M3-Summary.pptx"
+          }
+        ]
+      }
+    }
+  ],
+  "Classroom": {
+    "Duration": "480 minutes",
+    "Description": {
+      "en_us": "Machine Learning through Application"
+    },
+    "EnableDRM": "False",
+    "Labs": [
+      {
+        "LabFolderName": "01-M1-Lab1_Jupyter"
+      },
+      {
+        "LabFolderName": "02-M1-Lab2_Jupyter-2"
+      },
+      {
+        "LabFolderName": "03-M1-Lab3_AutoGluon"
+      },
+      {
+        "LabFolderName": "04-M1-Lab4_AutoGluon2"
+      },
+      {
+        "LabFolderName": "05-M1-Lab5_AutoGluon3"
+      },
+      {
+        "LabFolderName": "06-M2-Lab1_EDA-Categorical"
+      },
+      {
+        "LabFolderName": "07-M2-Lab2_EDA-Numerical"
+      },
+      {
+        "LabFolderName": "08-M2-Lab3_Feature-Engineering"
+      },
+      {
+        "LabFolderName": "09-M2-Lab4_Logistic-Regression"
+      },
+      {
+        "LabFolderName": "10-M2-Lab5_Hyperparameter-Tuning"
+      },
+      {
+        "LabFolderName": "11-M2-Lab6_Ensembling"
+      },
+      {
+        "LabFolderName": "12-M3-Lab1_ResML"
+      },
+      {
+        "LabFolderName": "13-M3-Lab2_Bias-Fairness"
+      },
+      {
+        "LabFolderName": "14-M3-Lab3_Fairness-Criteria"
+      },
+      {
+        "LabFolderName": "15-M3-Lab4_Bias-Mitigation"
+      }
+    ]
+  },
+  "Publish": [
+    {
+      "PublishTarget": "sftp",
+      "ArtifactsToSend": [
+        {
+          "ArtifactName": "{{CourseTag}}-EG.pdf",
+          "PublishTargetName": "{{CourseTag}}-EG.pdf"
+        },
+        {
+          "ArtifactName": "{{CourseTag}}-PPTs.zip",
+          "PublishTargetName": "{{CourseTag}}-PPTs.zip"
+        },
+        {
+          "ArtifactName": "{{CourseTag}}-SG.pdf",
+          "PublishTargetName": "{{CourseTag}}-SG.pdf"
+        }
+      ],
+      "SFTPPath": "/incoming/{{CourseTag}}",
+      "SecureCredentialsPrefix": "GilmoreSFTP"
+    }
+  ],
+  "ConvertedFiles": {}
+}

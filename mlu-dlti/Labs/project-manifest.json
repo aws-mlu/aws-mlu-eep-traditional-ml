@@ -1,0 +1,640 @@
+{
+  "CourseName": {
+    "en_us": "Application of Deep Learning to Text and Image Data"
+  },
+  "CourseInformation": {
+    "Modality": "CUR",
+    "Architecture": "TF",
+    "Level": "200",
+    "ShortCode": "MLUDTI",
+    "Version": "1.0.3",
+    "ReleaseDestination": "ACA"
+  },
+  "Books": [
+    {
+      "Name": {
+        "en_us": "Educator Guide"
+      },
+      "PdfName": "{{CourseTag}}-EG.pdf",
+      "ZipName": "{{CourseTag}}-EG.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Course Overview",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/EG/MLUDTI-EN-CourseOverview-EG.docx"
+          },
+          {
+            "Title": "Module 1 Overview: Neural Networks",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/EG/MLUDTI-EN-M1-EG.docx"
+          },
+          {
+            "Title": "Module 1, Lesson 0: Introduction to Deep Learning on Text and Images",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/EG/MLUDTI-EN-M1-L0-EG.docx"
+          },
+          {
+            "Title": "Module 1, Lesson 1: Introduction to Neural Networks: Layers and Activations", 
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/EG/MLUDTI-EN-M1-L1-EG.docx"
+          },
+          {
+            "Title": "Module 1, Lesson 2: How Neural Networks Learn", 
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/EG/MLUDTI-EN-M1-L2-EG.docx"
+          },
+          {
+            "Title": "Module 1, Lesson 3: First Examples of Neural Networks", 
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/EG/MLUDTI-EN-M1-L3-EG.docx"
+          },
+          {
+            "Title": "Module 1, Lesson 4: Neural Network Engineering", 
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/EG/MLUDTI-EN-M1-L4-EG.docx"
+          },
+          {
+            "Title": "Module 2 Overview: Modeling Text Data",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/EG/MLUDTI-EN-M2-EG.docx"
+          },
+          {
+            "Title": "Module 2, Lesson 1: Challenges of Textual Data and Domains of NLP", 
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/EG/MLUDTI-EN-M2-L1-EG.docx"
+          },
+          {
+            "Title": "Module 2, Lesson 2: Processing Text",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/EG/MLUDTI-EN-M2-L2-EG.docx"
+          },
+          {
+            "Title": "Module 2, Lesson 3: Word Embeddings",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/EG/MLUDTI-EN-M2-L3-EG.docx"
+          },
+          {
+            "Title": "Module 2, Lesson 4: Recurrent Neural Networks",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/EG/MLUDTI-EN-M2-L4-EG.docx"
+          },
+          {
+            "Title": "Module 2, Lesson 5: RNN Example with a Practical Dataset",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/EG/MLUDTI-EN-M2-L5-EG.docx"
+          },
+          {
+            "Title": "Module 2, Lesson 6: Transformers",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/EG/MLUDTI-EN-M2-L6-EG.docx"
+          },
+          {
+            "Title": "Module 3 Overview: Computer Vision",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/EG/MLUDTI-EN-M3-EG.docx"
+          },
+          {
+            "Title": "Module 3, Lesson 1: How Are Images Stored in a Computer?",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/EG/MLUDTI-EN-M3-L1-EG.docx"
+          },
+          {
+            "Title": "Module 3, Lesson 2: The Concept of Convolution",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/EG/MLUDTI-EN-M3-L2-EG.docx"
+          },
+          {
+            "Title": "Module 3, Lesson 3: Convolutional Neural Networks",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/EG/MLUDTI-EN-M3-L3-EG.docx"
+          },
+          {
+            "Title": "Module 3, Lesson 4: ResNet: The Trade-Offs of Depth and Model Performance",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/EG/MLUDTI-EN-M3-L4-EG.docx"
+          },
+          {
+            "Title": "Module 3, Lesson 5: Modern Architectures",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/EG/MLUDTI-EN-M3-L5-EG.docx"
+          },
+          {
+            "Title": "Module 3, Lesson 6: Transfer Learning",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/EG/MLUDTI-EN-M3-L6-EG.docx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-SG.pdf",
+      "ZipName": "{{CourseTag}}-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 1, Lesson 0: Introduction to Deep Learning on Text and Images",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M1-L0.pptx"
+          },
+          {
+            "Title": "Module 1, Lesson 1: Introduction to Neural Networks: Layers and Activations",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M1-L1.pptx"
+          },
+          {
+            "Title": "Module 1, Lesson 2: How Neural Networks Learn",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M1-L2.pptx"
+          },
+          {
+            "Title": "Module 1, Lesson 3: First Examples of Neural Networks",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M1-L3.pptx"
+          },
+          {
+            "Title": "Module 1, Lesson 4: Neural Network Engineering",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M1-L4.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 1: Challenges of Textual Data and Domains of NLP",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M2-L1.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 2: Processing Text",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M2-L2.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 3: Word Embeddings",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M2-L3.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 4: Recurrent Neural Networks",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M2-L4.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 5: RNN Example with a Practical Dataset",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M2-L5.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 6: Transformers",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M2-L6.pptx"
+          },
+          {
+            "Title": "Module 3, Lesson 1: How Are Images Stored in a Computer?",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M3-L1.pptx"
+          },
+          {
+            "Title": "Module 3, Lesson 2: The Concept of Convolution",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M3-L2.pptx"
+          },
+          {
+            "Title": "Module 3, Lesson 3: Convolutional Neural Networks",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M3-L3.pptx"
+          },
+          {
+            "Title": "Module 3, Lesson 4: ResNet: The Trade-Offs of Depth and Model Performance",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M3-L4.pptx"
+          },
+          {
+            "Title": "Module 3, Lesson 5: Modern Architectures",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M3-L5.pptx"
+          },
+          {
+            "Title": "Module 3, Lesson 6: Transfer Learning",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M3-L6.pptx"
+          },
+          {
+            "Title": "Course Summary",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M1-M3-Summary.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 1 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M1-SG.pdf",
+      "ZipName": "{{CourseTag}}-M1-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 1, Lesson 0: Introduction to Deep Learning on Text and Images",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M1-L0.pptx"
+          },
+          {
+            "Title": "Module 1, Lesson 1: Introduction to Neural Networks: Layers and Activations",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M1-L1.pptx"
+          },
+          {
+            "Title": "Module 1, Lesson 2: How Neural Networks Learn",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M1-L2.pptx"
+          },
+          {
+            "Title": "Module 1, Lesson 3: First Examples of Neural Networks",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M1-L3.pptx"
+          },
+          {
+            "Title": "Module 1, Lesson 4: Neural Network Engineering",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M1-L4.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 1 Lesson 0 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M1-L0-SG.pdf",
+      "ZipName": "{{CourseTag}}-M1-L0-PPT.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 1, Lesson 0: Introduction to Deep Learning on Text and Images",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M1-L0.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 1 Lesson 1 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M1-L1-SG.pdf",
+      "ZipName": "{{CourseTag}}-M1-L1-PPT.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 1, Lesson 1: Introduction to Neural Networks: Layers and Activations",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M1-L1.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 1 Lesson 2 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M1-L2-SG.pdf",
+      "ZipName": "{{CourseTag}}-M1-L2-PPT.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 1, Lesson 2: How Neural Networks Learn",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M1-L2.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 1 Lesson 3 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M1-L3-SG.pdf",
+      "ZipName": "{{CourseTag}}-M1-L3-PPT.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 1, Lesson 3: First Examples of Neural Networks",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M1-L3.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 1 Lesson 4 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M1-L4-SG.pdf",
+      "ZipName": "{{CourseTag}}-M1-L4-PPT.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 1, Lesson 4: Neural Network Engineering",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M1-L4.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 2 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M2-SG.pdf",
+      "ZipName": "{{CourseTag}}-M2-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 2, Lesson 1: Challenges of Textual Data and Domains of NLP",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M2-L1.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 2: Processing Text",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M2-L2.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 3: Word Embeddings",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M2-L3.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 4: Recurrent Neural Networks",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M2-L4.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 5: RNN Example with a Practical Dataset",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M2-L5.pptx"
+          },
+          {
+            "Title": "Module 2, Lesson 6: Transformers",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M2-L6.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 2, Lesson 1 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M2-L1-SG.pdf",
+      "ZipName": "{{CourseTag}}-M2-L1-PPT.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 2, Lesson 1: Challenges of Textual Data and Domains of NLP",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M2-L1.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 2, Lesson 2 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M2-L2-SG.pdf",
+      "ZipName": "{{CourseTag}}-M2-L2-PPT.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 2, Lesson 2: Processing Text",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M2-L2.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 2, Lesson 3 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M2-L3-SG.pdf",
+      "ZipName": "{{CourseTag}}-M2-L3-PPT.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 2, Lesson 3: Word Embeddings",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M2-L3.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 2, Lesson 4 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M2-L4-SG.pdf",
+      "ZipName": "{{CourseTag}}-M2-L4-PPT.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 2, Lesson 4: Recurrent Neural Networks",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M2-L4.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 2, Lesson 5 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M2-L5-SG.pdf",
+      "ZipName": "{{CourseTag}}-M2-L5-PPT.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 2, Lesson 5: RNN Example with a Practical Dataset",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M2-L5.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 2, Lesson 6 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M2-L6-SG.pdf",
+      "ZipName": "{{CourseTag}}-M2-L6-PPT.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 2, Lesson 6: Transformers",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M2-L6.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 3 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M3-SG.pdf",
+      "ZipName": "{{CourseTag}}-M3-PPTs.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 3, Lesson 1: How Are Images Stored in a Computer?",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M3-L1.pptx"
+          },
+          {
+            "Title": "Module 3, Lesson 2: The Concept of Convolution",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M3-L2.pptx"
+          },
+          {
+            "Title": "Module 3, Lesson 3: Convolutional Neural Networks",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M3-L3.pptx"
+          },
+          {
+            "Title": "Module 3, Lesson 4: ResNet: The Trade-Offs of Depth and Model Performance",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M3-L4.pptx"
+          },
+          {
+            "Title": "Module 3, Lesson 5: Modern Architectures",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M3-L5.pptx"
+          },
+          {
+            "Title": "Module 3, Lesson 6: Transfer Learning",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M3-L6.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 3, Lesson 1 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M3-L1-SG.pdf",
+      "ZipName": "{{CourseTag}}-M3-L1-PPT.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 3, Lesson 1: How Are Images Stored in a Computer?",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M3-L1.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 3, Lesson 2 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M3-L2-SG.pdf",
+      "ZipName": "{{CourseTag}}-M3-L2-PPT.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 3, Lesson 2: The Concept of Convolution",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M3-L2.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 3, Lesson 3 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M3-L3-SG.pdf",
+      "ZipName": "{{CourseTag}}-M3-L3-PPT.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 3, Lesson 3: Convolutional Neural Networks",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M3-L3.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 3, Lesson 4 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M3-L4-SG.pdf",
+      "ZipName": "{{CourseTag}}-M3-L4-PPT.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 3, Lesson 4: ResNet: The Trade-Offs of Depth and Model Performance",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M3-L4.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 3, Lesson 5 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M3-L5-SG.pdf",
+      "ZipName": "{{CourseTag}}-M3-L5-PPT.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 3, Lesson 5: Modern Architectures",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M3-L5.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Module 3, Lesson 6 Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-M3-L6-SG.pdf",
+      "ZipName": "{{CourseTag}}-M3-L6-PPT.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Module 3, Lesson 6: Transfer Learning",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M3-L6.pptx"
+          }
+        ]
+      }
+    },
+    {
+      "Name": {
+        "en_us": "Course Summary Student Guide"
+      },
+      "PdfName": "{{CourseTag}}-Summary-SG.pdf",
+      "ZipName": "{{CourseTag}}-Summary-PPT.zip",
+      "Files": {
+        "en_us": [
+          {
+            "Title": "Course Summary",
+            "S3Path": "s3://awsu-coursebuild/sourcefiles/CUR-TF-200-MLUDTI-10-EN/PPTs/student-guide-slides/MLUDTI-EN-M1-M3-Summary.pptx"
+          }
+        ]
+      }
+    }
+  ],
+  "Classroom": {
+    "Duration": "480 minutes",
+    "Description": {
+      "en_us": "Application of Deep Learning to Text and Images"
+    },
+    "EnableDRM": "False",
+    "Labs": [
+      {
+        "LabFolderName": "01-M1-Lab1_PyTorch"
+      },
+      {
+        "LabFolderName": "02-M1-Lab2_Perceptron-Dropout"
+      },
+      {
+        "LabFolderName": "03-M1-Lab3_NN"
+      },
+      {
+        "LabFolderName": "04-M1-Lab4_Introduction-to-CNNs"
+      },
+      {
+        "LabFolderName": "05-M2-Lab1_Processing-Text"
+      },
+      {
+        "LabFolderName": "06-M2-Lab2_BoW"
+      },
+      {
+        "LabFolderName": "07-M2-Lab3_GloVe"
+      },
+      {
+        "LabFolderName": "08-M2-Lab4_RNN"
+      },
+      {
+        "LabFolderName": "09-M2-Lab5_BERT"
+      },
+      {
+        "LabFolderName": "10-M3-Lab1_Image-Data"
+      },
+      {
+        "LabFolderName": "11-M3-Lab2_CNN"
+      },
+      {
+        "LabFolderName": "12-M3-Lab3_CNN2"
+      },
+      {
+        "LabFolderName": "13-M3-Lab4_Residual-layers"
+      },
+      {
+        "LabFolderName": "14-M3-Lab5_ConvNeXt"
+      },
+      {
+        "LabFolderName": "15-M3-Lab6_ConvNeXt2"
+      }
+    ]
+  },
+  "Publish": [
+    {
+      "PublishTarget": "sftp",
+      "ArtifactsToSend": [
+        {
+          "ArtifactName": "{{CourseTag}}-EG.pdf",
+          "PublishTargetName": "{{CourseTag}}-EG.pdf"
+        },
+        {
+          "ArtifactName": "{{CourseTag}}-PPTs.zip",
+          "PublishTargetName": "{{CourseTag}}-PPTs.zip"
+        },
+        {
+          "ArtifactName": "{{CourseTag}}-SG.pdf",
+          "PublishTargetName": "{{CourseTag}}-SG.pdf"
+        }
+      ],
+      "SFTPPath": "/incoming/{{CourseTag}}",
+      "SecureCredentialsPrefix": "GilmoreSFTP"
+    }
+  ],
+  "ConvertedFiles": {}
+}

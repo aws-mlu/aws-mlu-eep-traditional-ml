@@ -1,0 +1,10 @@
+scikit-learn
+torch
+torchvision
+torchdata
+torchtext
+--extra-index-url https://download.pytorch.org/whl/cu117
+matplotlib
+seaborn
+numpy
+pandas
