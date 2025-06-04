@@ -1,8 +1,0 @@
-scikit-learn
-torch==2.2.2
-torchtext==0.17.2
-torchvision
-matplotlib
-seaborn
-numpy==1.26.4
-pandas
