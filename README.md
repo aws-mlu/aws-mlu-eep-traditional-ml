@@ -26,7 +26,7 @@ Interactive Jupyter notebooks that include:
 - Real-world use cases
 - Challenge exercises
 
-ach lesson and its corresponding lab(s) are designed to be completed sequentially, building upon concepts from previous modules and lessons. All code examples are thoroughly documented and include explanatory comments to facilitate learning.
+Each lesson and its corresponding lab(s) are designed to be completed sequentially, building upon concepts from previous modules and lessons. All code examples are thoroughly documented and include explanatory comments to facilitate learning.
 
 Note: Make sure to review the lesson material before attempting the associated lab exercises for the best learning experience.
 ### Lab environment
