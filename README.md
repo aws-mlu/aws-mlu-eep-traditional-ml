@@ -37,11 +37,12 @@ All labs were last tested in Amazon SageMaker Studio in a JupyterLab space using
 #### Module 1: What is ML?
 | Lesson | Topic & Content | Associated Videos |
 |:--|:--|:--|
-Lesson 0: Introduction to ML | Introduced to the material, starting with a definition of ML along with a few examples of an ML model | Coming Soon: YouTube videos |
-| Lesson 1: Jupyter and SageMaker | Fundamentals of the Jupyter Notebook application and Amazon SageMaker | Coming Soon: YouTube videos |
+Course Content Summary | Overview of Machine Learning Through Application course content, Modules 1-3 | [https://www.youtube.com/watch?v=bQ8bnylgSYY](https://www.youtube.com/watch?v=bQ8bnylgSYY) |
+Lesson 0: Introduction to ML | Introduced to the material, starting with a definition of ML along with a few examples of an ML model | [https://www.youtube.com/watch?v=Cdczxan0gas](https://www.youtube.com/watch?v=Cdczxan0gas)|
+| Lesson 1: Jupyter and SageMaker | Fundamentals of the Jupyter Notebook application and Amazon SageMaker | [https://www.youtube.com/watch?v=H2lz3DHXrg0](https://www.youtube.com/watch?v=H2lz3DHXrg0) |
 | Lab 1: Getting Started with Jupyter Notebooks | Practice using SageMaker and gain experience using the core UI components ||
 | Lab 2: Extending Your Jupyter Notebook Understanding | Practice using Jupyter notebooks more efficiently ||
-| Lesson 2: Types of ML and Aspects of Successful ML Problems | Common types of ML problems and the characteristics of successful ML problems | Coming Soon: YouTube videos |
+| Lesson 2: Types of ML and Aspects of Successful ML Problems | Common types of ML problems and the characteristics of successful ML problems | [https://www.youtube.com/watch?v=xIBSLuXCjDQ](https://www.youtube.com/watch?v=xIBSLuXCjDQ) |
 | Lesson 3: Examples of ML Applications and Why They Are Successful | Examples of successful ML use cases and examine how these use cases have characteristics that help to make them successful | Coming Soon: YouTube videos |
 | Lesson 4: The ML Lifecycle, and Overfitting and Underfitting | The fundamental concepts of overfitting, underfitting, and the ML lifecycle | Coming Soon: YouTube videos |
 | Lesson 5: AutoML and AutoGluon | AutoML concepts an use of AutoGluon, an open-source AutoML library, to automate repetitive portions of the ML lifecycle | Coming Soon: YouTube videos |
