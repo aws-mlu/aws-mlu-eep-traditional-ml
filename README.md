@@ -34,6 +34,9 @@ All labs were last tested in Amazon SageMaker Studio in a JupyterLab space using
 
 ## Content
 ### Machine Learning through Application
+
+To view all MLTA content, videos access the [Machine Learning Through Application](https://www.youtube.com/playlist?list=PL8P_Z6C4GcuU0qt4mBSm-XmWcYX8YWXGO).
+
 #### Module 1: What is ML?
 | Lesson | Topic & Content | Associated Videos |
 |:--|:--|:--|
@@ -78,9 +81,11 @@ Lesson 0: Introduction to ML | Introduced to the material, starting with a defin
 | Lesson 4: Bias Mitigation in Preprocessing, Model Training, and Postprocessing | How to perform bias mitigation during preprocessing, model training, and postprocessing | [https://www.youtube.com/watch?v=Qd-HLS0pYk0](https://www.youtube.com/watch?v=Qd-HLS0pYk0) |
 | Lab 4: Bias Mitigation during Preprocessing, Training, and Postprocessing | Bias mitigation during preprocessing, model training, and postprocessing by using CI (reweighted), DPL, fairness penalty terms, equalized odds, and ROC/calibration curves ||
 
-To view all MLTA content, videos access the [Machine Learning Through Application](https://www.youtube.com/playlist?list=PL8P_Z6C4GcuU0qt4mBSm-XmWcYX8YWXGO).
-
 ### Deep Learning for Text and Image Data
+
+To view all DLTI content, videos access the [Application of Deep Learning to Text and Image Data playlist](https://www.youtube.com/playlist?list=PL8P_Z6C4GcuU9-i94bz5WMfCZU-8s0RkY).
+
+
 #### Module 1: Neural networks
 
 
@@ -128,7 +133,6 @@ To view all MLTA content, videos access the [Machine Learning Through Applicatio
 | Lesson 6: Transfer Learning |In this lecture, students will learn the concept of transfer learning. They will apply the techniques of fine-tuning to the ConvNeXt architecture neural networks to leverage large pretrained models for tasks in CV.| [https://www.youtube.com/watch?v=_KDpdUe9orM](https://www.youtube.com/watch?v=_KDpdUe9orM) |
 | Lab 6: Fine-Tuning ConvNeXt |In this lab, students will fine-tune a ConvNeXt-based model to get the best results.||
 
-To view all DLTI content, videos access the [Application of Deep Learning to Text and Image Data playlist](https://www.youtube.com/playlist?list=PL8P_Z6C4GcuU9-i94bz5WMfCZU-8s0RkY).
 
 ## Prerequisites for Machine Learning Through Application
 
