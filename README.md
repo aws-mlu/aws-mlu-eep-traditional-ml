@@ -35,7 +35,7 @@ All labs were last tested in Amazon SageMaker Studio in a JupyterLab space using
 ## Content
 ### Machine Learning through Application
 
-To view all MLTA content, videos access the [Machine Learning Through Application](https://www.youtube.com/playlist?list=PL8P_Z6C4GcuU0qt4mBSm-XmWcYX8YWXGO).
+To view all MLTA content, access the [Machine Learning Through Application](https://www.youtube.com/playlist?list=PL8P_Z6C4GcuU0qt4mBSm-XmWcYX8YWXGO) YouTube playlist.
 
 #### Module 1: What is ML?
 | Lesson | Topic & Content | Associated Videos |
@@ -83,7 +83,7 @@ Lesson 0: Introduction to ML | Introduced to the material, starting with a defin
 
 ### Deep Learning for Text and Image Data
 
-To view all DLTI content, videos access the [Application of Deep Learning to Text and Image Data playlist](https://www.youtube.com/playlist?list=PL8P_Z6C4GcuU9-i94bz5WMfCZU-8s0RkY).
+To view all DLTI content, access the [Application of Deep Learning to Text and Image Data playlist](https://www.youtube.com/playlist?list=PL8P_Z6C4GcuU9-i94bz5WMfCZU-8s0RkY) YouTube playlist.
 
 
 #### Module 1: Neural networks
