@@ -43,9 +43,9 @@ Lesson 0: Introduction to ML | Introduced to the material, starting with a defin
 | Lab 1: Getting Started with Jupyter Notebooks | Practice using SageMaker and gain experience using the core UI components ||
 | Lab 2: Extending Your Jupyter Notebook Understanding | Practice using Jupyter notebooks more efficiently ||
 | Lesson 2: Types of ML and Aspects of Successful ML Problems | Common types of ML problems and the characteristics of successful ML problems | [https://www.youtube.com/watch?v=xIBSLuXCjDQ](https://www.youtube.com/watch?v=xIBSLuXCjDQ) |
-| Lesson 3: Examples of ML Applications and Why They Are Successful | Examples of successful ML use cases and examine how these use cases have characteristics that help to make them successful | Coming Soon: YouTube videos |
-| Lesson 4: The ML Lifecycle, and Overfitting and Underfitting | The fundamental concepts of overfitting, underfitting, and the ML lifecycle | Coming Soon: YouTube videos |
-| Lesson 5: AutoML and AutoGluon | AutoML concepts an use of AutoGluon, an open-source AutoML library, to automate repetitive portions of the ML lifecycle | Coming Soon: YouTube videos |
+| Lesson 3: Examples of ML Applications and Why They Are Successful | Examples of successful ML use cases and examine how these use cases have characteristics that help to make them successful | [https://www.youtube.com/watch?v=yd9SLuAVIbc](https://www.youtube.com/watch?v=yd9SLuAVIbc) |
+| Lesson 4: The ML Lifecycle, and Overfitting and Underfitting | The fundamental concepts of overfitting, underfitting, and the ML lifecycle | [https://www.youtube.com/watch?v=O6aSxyxU7Xk](https://www.youtube.com/watch?v=O6aSxyxU7Xk) |
+| Lesson 5: AutoML and AutoGluon | AutoML concepts an use of AutoGluon, an open-source AutoML library, to automate repetitive portions of the ML lifecycle | [https://www.youtube.com/watch?v=dts8nmeca7M](https://www.youtube.com/watch?v=dts8nmeca7M) |
 | Lab 3: Getting Started with AutoGluon | Walk through the process to build a basic ML model by using AutoGluon to train a model on a dataset ||
 | Lab 4: Refining Models by Using AutoGluon | Continue from the previous lab, and learn how to assess the performance of the models that AutoGluon trains and how to make predictions by using the best model ||
 | Lab 5: Using Advanced AutoGluon Techniques | Continue from the previous lab by using a full dataset and a time limit to train the model, and by making predictions with the new model. The core purpose of this lab is to emphasize the importance of data in the process of constructing models ||
@@ -53,17 +53,17 @@ Lesson 0: Introduction to ML | Introduced to the material, starting with a defin
 #### Module 2: Core ML Concepts for Tabular Data
 | Lesson | Topic & Content | Associated Videos |
 |:--|:--|:--|
-| Lesson 1: Exploratory Data Analysis | Basics of exploratory data analysis (EDA) so that they can understand why it is important to clean a dataset before using it to create a model | Coming Soon: YouTube videos |
+| Lesson 1: Exploratory Data Analysis | Basics of exploratory data analysis (EDA) so that they can understand why it is important to clean a dataset before using it to create a model | [https://www.youtube.com/watch?v=6lmSWrpU__8](https://www.youtube.com/watch?v=6lmSWrpU__8) |
 | Lab 1: Performing EDA for Categorical Variables | Basic steps of EDA of categorical data, and perform initial data investigations to discover patterns, spot anomalies, and look for insights to inform later ML modeling choices ||
 | Lab 2: Performing EDA for Numerical Variables | Basic steps of EDA of numerical data, and perform initial data investigations to discover patterns, spot anomalies, and look for insights to inform later ML modeling choices ||
-| Lesson 2: Basic Feature Engineering | Basic feature engineering methods for processing categorical features, preprocessing text features, and vectorizing text features | Coming Soon: YouTube videos |
+| Lesson 2: Basic Feature Engineering | Basic feature engineering methods for processing categorical features, preprocessing text features, and vectorizing text features | [https://www.youtube.com/watch?v=JA9-p7pOFX0](https://www.youtube.com/watch?v=JA9-p7pOFX0) |
 | Lab 3: Performing Basic Feature Engineering | Common techniques that are used to transform numerical features, encode categorical features, and vectorize processed text features ||
-| Lesson 3: Tree-Based Models | Introduction to decision trees, the Iterative Dichotomiser (ID3) algorithm, and information gain or impurity | Coming Soon: YouTube videos |
-| Lesson 4: Optimization, Regression Models, and Regularization | How to use gradient descent to optimize ML models, when to use linear and logistic regression, and when to use regularization | Coming Soon: YouTube videos |
+| Lesson 3: Tree-Based Models | Introduction to decision trees, the Iterative Dichotomiser (ID3) algorithm, and information gain or impurity | [https://www.youtube.com/watch?v=ueDGJcr9hn0](https://www.youtube.com/watch?v=ueDGJcr9hn0) |
+| Lesson 4: Optimization, Regression Models, and Regularization | How to use gradient descent to optimize ML models, when to use linear and logistic regression, and when to use regularization | [https://www.youtube.com/watch?v=f70xHuPxKEY](https://www.youtube.com/watch?v=f70xHuPxKEY) |
 | Lab 4: Using Logistic Regression | Build a logistic regression model to predict a field of a dataset. They also look at how probability threshold calibration can help improve a classifier's performance ||
-| Lesson 5: Hyperparameter Tuning | Hyperparameters and how to tune them by using grid search, random search, and Bayesian search | Coming Soon: YouTube videos |
+| Lesson 5: Hyperparameter Tuning | Hyperparameters and how to tune them by using grid search, random search, and Bayesian search | [https://www.youtube.com/watch?v=wfFjkaZBH04](https://www.youtube.com/watch?v=wfFjkaZBH04) |
 | Lab 5: Using Hyperparameter Tuning | Become familiar with two main types of hyperparameter tuning: grid search and randomized search. Students will use a decision tree model to learn the basics of hyperparameter tuning that can be applied to any model ||
-| Lesson 6: Ensembling | Introduction to ensembling methods. This includes bagging with random forests, boosting, and stacking | Coming Soon: YouTube videos |
+| Lesson 6: Ensembling | Introduction to ensembling methods. This includes bagging with random forests, boosting, and stacking | [https://www.youtube.com/watch?v=abEnmXBuxfY](https://www.youtube.com/watch?v=abEnmXBuxfY) |
 | Lab 6: Using Ensemble Learning | Use of ensemble methods to create a strong model by combining the predictions of multiple weak models that were built with a given dataset and a given learning algorithm ||
 
 #### Module 3: Responsible ML
