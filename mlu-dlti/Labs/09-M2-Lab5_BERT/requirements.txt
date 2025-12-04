@@ -3,7 +3,7 @@ pandas
 scikit-learn
 matplotlib
 seaborn
-torch==2.2.2
+torch==2.8.0
 torchtext==0.17.2
 transformers==4.53.0
 sentencepiece
