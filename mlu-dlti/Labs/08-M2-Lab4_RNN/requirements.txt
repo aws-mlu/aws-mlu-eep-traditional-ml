@@ -4,5 +4,3 @@ scikit-learn>=1.4.0,<1.5.3
 matplotlib
 seaborn
 torch==2.2.2
-torchtext==0.17.2
-torchvision==0.17.2
