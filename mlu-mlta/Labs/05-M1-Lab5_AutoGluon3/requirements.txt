@@ -1,4 +1,6 @@
 numpy<2.0
-pandas<2.0
-spacy<3.8
-autogluon==1.1.0
+pandas>=2.0.0,<2.3.0
+scikit-learn>=1.4.0,<1.5.3
+scipy>=1.7.2,<1.16
+spacy>=3.7.0,<3.8
+protobuf>=3.19.4,<5.0

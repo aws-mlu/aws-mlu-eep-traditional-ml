@@ -155,11 +155,19 @@ This topic requires a strong foundation in IT concepts and skills. To ensure suc
 git clone [repository-url]
 ```
 
-2. Environment Requirements:
-- Python 3.10+
-- Jupyter Notebook environment
-- AWS CLI configured with appropriate credentials
-- Required Python packages (specified within the notebooks)
+2. Choose one of the enviromnent options below:
+   
+__Running locally using Jupyter environment:__
+  - Python 3.12.10+
+  - Jupyter notebook Kernel: Python 3.12.10
+  
+__Running with Amazon SageMaker AI__
+  - AWS account with configured with appropriate credentials
+  - SageMaker Image Distribution 3.4.2
+  - Jupyter notebook Kernel: Python 3 (ipykernel)
+  - Region: us-east-1
+  
+__Note:__ Required Python packages are installed automatically for each notebook
 
 1. Start Learning:
 - Begin with the presentation materials in the Lessons folder
