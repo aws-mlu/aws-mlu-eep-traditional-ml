@@ -31,7 +31,17 @@ Each lesson and its corresponding lab(s) are designed to be completed sequential
 Note: Make sure to review the lesson material before attempting the associated lab exercises for the best learning experience.
 ### Lab environment
 All labs were last tested in Amazon SageMaker Studio in a JupyterLab space using a `ml.g4dn.large` instance running the `SageMaker Distribution 3.0.1` Image
+#### Lab Environment Alternatives
+These are options we recommend to run our labs:
+1. SageMaker Studio Lab (free): Try accessing https://studiolab.sagemaker.aws/ and cloning the MLTA GitHub repo directly into your project. Open a terminal and run:
+   git clone https://github.com/aws-mlu/aws-mlu-eep-traditional-ml.git
 
+2. Run locally with Anaconda (free): Install Anaconda to set up a local Python + JupyterLab environment, then clone the same repo.
+
+3. AWS SageMaker Studio via an AWS account: If you have access to CloudCredits or a university account, you can set up a SageMaker Studio domain and provide students access — best option for GPU access when needed.
+
+For all options, the starting point is the same — clone the repo:
+https://github.com/aws-mlu/aws-mlu-eep-traditional-ml.git
 ## Content
 ### Machine Learning through Application
 
