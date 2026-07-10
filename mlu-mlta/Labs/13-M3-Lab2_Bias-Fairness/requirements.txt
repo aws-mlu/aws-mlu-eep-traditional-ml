@@ -14,3 +14,4 @@ scipy>=1.7.2,<1.16
 seaborn>=0.11.2
 shap>=0.40.0
 wordcloud>=1.8.2.2
+Pillow>=9.0.0
