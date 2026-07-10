@@ -1,7 +1,7 @@
 numpy<2.0
 pandas>=2.0.0,<2.3.0
 scikit-learn>=1.4.0,<1.5.3
-aif360[all]==0.5.0
+aif360==0.5.0
 BlackBoxAuditing>=0.1.54
 fairlearn>=0.8.0
 folktables>=0.0.11
