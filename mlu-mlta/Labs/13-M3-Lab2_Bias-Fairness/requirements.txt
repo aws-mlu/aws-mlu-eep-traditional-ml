@@ -6,6 +6,7 @@ BlackBoxAuditing>=0.1.54
 fairlearn>=0.8.0
 folktables>=0.0.11
 ipywidgets>=7.7.0
+pyparsing>=3.0.0
 matplotlib>=3.3.4
 protobuf>=3.19.4
 pytest-warnings>=0.3.1
