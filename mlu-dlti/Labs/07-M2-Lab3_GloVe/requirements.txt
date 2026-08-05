@@ -1,7 +1,6 @@
 numpy<2.0
 pandas>=2.0.0,<2.3.0
 scikit-learn>=1.4.0,<1.5.3
-torch>=2.8.0
 gensim
 matplotlib
 seaborn
