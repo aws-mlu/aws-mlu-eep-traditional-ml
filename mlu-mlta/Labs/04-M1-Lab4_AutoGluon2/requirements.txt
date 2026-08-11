@@ -4,4 +4,4 @@ scikit-learn>=1.4.0,<1.5.3
 scipy>=1.7.2,<1.16
 pyarrow>=4.0.0,<20
 spacy>=3.7.0,<3.8
-protobuf>=3.19.4,<5.0
+protobuf>=5.29.3
