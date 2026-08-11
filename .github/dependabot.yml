@@ -1,0 +1,377 @@
+
+# .github/dependabot.yml
+# Dependabot configuration for aws-mlu-eep-traditional-ml
+# Security updates only — no routine version bumps
+# PRs require manual review and merge (no auto-merge)
+
+version: 2
+updates:
+  # ============================================================
+  # mlu-mlta (Machine Learning - The Algorithms)
+  # ============================================================
+
+  - package-ecosystem: "pip"
+    directory: "/mlu-mlta/Labs/01-M1-Lab1_DataProcessing"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+    open-pull-requests-limit: 5
+    versioning-strategy: "lockfile-only"
+    labels:
+      - "dependencies"
+      - "security"
+      - "mlu-mlta"
+    commit-message:
+      prefix: "security(mlta)"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
+
+  - package-ecosystem: "pip"
+    directory: "/mlu-mlta/Labs/02-M1-Lab2_LinearModels"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+    open-pull-requests-limit: 5
+    versioning-strategy: "lockfile-only"
+    labels:
+      - "dependencies"
+      - "security"
+      - "mlu-mlta"
+    commit-message:
+      prefix: "security(mlta)"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
+
+  - package-ecosystem: "pip"
+    directory: "/mlu-mlta/Labs/03-M1-Lab3_AutoGluon1"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+    open-pull-requests-limit: 5
+    versioning-strategy: "lockfile-only"
+    labels:
+      - "dependencies"
+      - "security"
+      - "mlu-mlta"
+    commit-message:
+      prefix: "security(mlta)"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
+
+  - package-ecosystem: "pip"
+    directory: "/mlu-mlta/Labs/04-M1-Lab4_AutoGluon2"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+    open-pull-requests-limit: 5
+    versioning-strategy: "lockfile-only"
+    labels:
+      - "dependencies"
+      - "security"
+      - "mlu-mlta"
+    commit-message:
+      prefix: "security(mlta)"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
+
+  - package-ecosystem: "pip"
+    directory: "/mlu-mlta/Labs/05-M1-Lab5_AutoGluon3"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+    open-pull-requests-limit: 5
+    versioning-strategy: "lockfile-only"
+    labels:
+      - "dependencies"
+      - "security"
+      - "mlu-mlta"
+    commit-message:
+      prefix: "security(mlta)"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
+
+  - package-ecosystem: "pip"
+    directory: "/mlu-mlta/Labs/06-M1-Lab6_TreeMethods"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+    open-pull-requests-limit: 5
+    versioning-strategy: "lockfile-only"
+    labels:
+      - "dependencies"
+      - "security"
+      - "mlu-mlta"
+    commit-message:
+      prefix: "security(mlta)"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
+
+  - package-ecosystem: "pip"
+    directory: "/mlu-mlta/Labs/07-M2-Lab1_Clustering"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+    open-pull-requests-limit: 5
+    versioning-strategy: "lockfile-only"
+    labels:
+      - "dependencies"
+      - "security"
+      - "mlu-mlta"
+    commit-message:
+      prefix: "security(mlta)"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
+
+  - package-ecosystem: "pip"
+    directory: "/mlu-mlta/Labs/08-M2-Lab2_DimensionalityReduction"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+    open-pull-requests-limit: 5
+    versioning-strategy: "lockfile-only"
+    labels:
+      - "dependencies"
+      - "security"
+      - "mlu-mlta"
+    commit-message:
+      prefix: "security(mlta)"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
+
+  # ============================================================
+  # mlu-dlti (Deep Learning - The Intuition)
+  # ============================================================
+
+  - package-ecosystem: "pip"
+    directory: "/mlu-dlti/Labs/01-M1-Lab1_Perceptron"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+    open-pull-requests-limit: 5
+    versioning-strategy: "lockfile-only"
+    labels:
+      - "dependencies"
+      - "security"
+      - "mlu-dlti"
+    commit-message:
+      prefix: "security(dlti)"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
+
+  - package-ecosystem: "pip"
+    directory: "/mlu-dlti/Labs/02-M1-Lab2_MLP"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+    open-pull-requests-limit: 5
+    versioning-strategy: "lockfile-only"
+    labels:
+      - "dependencies"
+      - "security"
+      - "mlu-dlti"
+    commit-message:
+      prefix: "security(dlti)"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
+
+  - package-ecosystem: "pip"
+    directory: "/mlu-dlti/Labs/03-M1-Lab3_Optimization"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+    open-pull-requests-limit: 5
+    versioning-strategy: "lockfile-only"
+    labels:
+      - "dependencies"
+      - "security"
+      - "mlu-dlti"
+    commit-message:
+      prefix: "security(dlti)"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
+
+  - package-ecosystem: "pip"
+    directory: "/mlu-dlti/Labs/04-M1-Lab4_Regularization"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+    open-pull-requests-limit: 5
+    versioning-strategy: "lockfile-only"
+    labels:
+      - "dependencies"
+      - "security"
+      - "mlu-dlti"
+    commit-message:
+      prefix: "security(dlti)"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
+
+  - package-ecosystem: "pip"
+    directory: "/mlu-dlti/Labs/05-M2-Lab1_CNN"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+    open-pull-requests-limit: 5
+    versioning-strategy: "lockfile-only"
+    labels:
+      - "dependencies"
+      - "security"
+      - "mlu-dlti"
+    commit-message:
+      prefix: "security(dlti)"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
+
+  - package-ecosystem: "pip"
+    directory: "/mlu-dlti/Labs/06-M2-Lab2_TransferLearning"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+    open-pull-requests-limit: 5
+    versioning-strategy: "lockfile-only"
+    labels:
+      - "dependencies"
+      - "security"
+      - "mlu-dlti"
+    commit-message:
+      prefix: "security(dlti)"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
+
+  - package-ecosystem: "pip"
+    directory: "/mlu-dlti/Labs/07-M2-Lab3_RNN"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+    open-pull-requests-limit: 5
+    versioning-strategy: "lockfile-only"
+    labels:
+      - "dependencies"
+      - "security"
+      - "mlu-dlti"
+    commit-message:
+      prefix: "security(dlti)"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
+
+  - package-ecosystem: "pip"
+    directory: "/mlu-dlti/Labs/08-M2-Lab4_Attention"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+    open-pull-requests-limit: 5
+    versioning-strategy: "lockfile-only"
+    labels:
+      - "dependencies"
+      - "security"
+      - "mlu-dlti"
+    commit-message:
+      prefix: "security(dlti)"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
+
+  - package-ecosystem: "pip"
+    directory: "/mlu-dlti/Labs/09-M2-Lab5_BERT"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+    open-pull-requests-limit: 5
+    versioning-strategy: "lockfile-only"
+    labels:
+      - "dependencies"
+      - "security"
+      - "mlu-dlti"
+    commit-message:
+      prefix: "security(dlti)"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
+
+  # ============================================================
+  # GitHub Actions
+  # ============================================================
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+    labels:
+      - "dependencies"
+      - "ci"
+    commit-message:
+      prefix: "ci"
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
+          - "version-update:semver-minor"
+          - "version-update:semver-patch"
+
