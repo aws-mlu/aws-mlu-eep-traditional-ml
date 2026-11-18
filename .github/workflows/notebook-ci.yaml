@@ -1,0 +1,90 @@
+name: Notebook CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test-notebooks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+
+      - name: Audit dependencies and execute all notebooks
+        run: |
+          python3 - << 'EOF'
+          import os
+          import subprocess
+          import shutil
+          from collections import defaultdict
+          from pathlib import Path
+
+          repo_root = Path.cwd().resolve()
+          groups = defaultdict(list)
+
+          # 1. Group every notebook by its nearest parent requirements.txt (or None for base Python)
+          for nb in sorted(repo_root.rglob("*.ipynb")):
+              if any(part.startswith(".") for part in nb.relative_to(repo_root).parts):
+                  continue
+
+              req_file = None
+              current = nb.parent
+              while True:
+                  candidate = current / "requirements.txt"
+                  if candidate.is_file():
+                      req_file = candidate
+                      break
+                  if current == repo_root:
+                      break
+                  current = current.parent
+
+              groups[req_file].append(nb)
+
+          if not groups:
+              print("No notebooks found.")
+              exit(0)
+
+          # 2. Spin up an isolated venv per group, audit, and run notebooks
+          venv_dir = repo_root / ".ci_venv"
+          pip_bin = venv_dir / "bin" / "pip"
+          audit_bin = venv_dir / "bin" / "pip-audit"
+          jupyter_bin = venv_dir / "bin" / "jupyter"
+
+          for req_file, notebooks in groups.items():
+              label = str(req_file.relative_to(repo_root)) if req_file else "Base Python (no requirements.txt)"
+              print(f"\n==========================================")
+              print(f"Environment: {label}")
+              print(f"==========================================")
+
+              if venv_dir.exists():
+                  shutil.rmtree(venv_dir)
+
+              subprocess.run(["python3", "-m", "venv", str(venv_dir)], check=True)
+              subprocess.run([str(pip_bin), "install", "--upgrade", "pip", "jupyter", "nbconvert", "pip-audit"], check=True)
+
+              if req_file:
+                  subprocess.run([str(pip_bin), "install", "-r", str(req_file)], check=True)
+                  print(f"Auditing {label}...")
+                  subprocess.run([str(audit_bin), "-r", str(req_file)], check=True)
+
+              for nb in notebooks:
+                  rel_nb = nb.relative_to(repo_root)
+                  print(f"Executing {rel_nb}...")
+                  subprocess.run(
+                      [str(jupyter_bin), "nbconvert", "--to", "notebook", "--execute", "--inplace", nb.name],
+                      cwd=nb.parent,
+                      check=True,
+                  )
+
+          if venv_dir.exists():
+              shutil.rmtree(venv_dir)
+          EOF
+
